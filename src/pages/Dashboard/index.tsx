@@ -43,7 +43,7 @@ const Dashboard: React.FC = () => {
     event.preventDefault();
 
     if (!newRepo) {
-      setInputError('Digite um usuário.');
+      setInputError('Please enter a user.');
       return;
     }
 
@@ -59,7 +59,7 @@ const Dashboard: React.FC = () => {
       setInputError('');
       setLoading(false);
     } catch {
-      setInputError('Erro na busca por esse usuário.');
+      setInputError('An error occurred while searching. Please try again.');
     }
   }
 
@@ -82,7 +82,7 @@ const Dashboard: React.FC = () => {
         <input
           value={newRepo}
           onChange={(e) => setNewRepo(e.target.value)}
-          placeholder="Digite o nome do repositório" />
+          placeholder="Please enter a user" />
         <button type="submit">
           {loading
             ? <Loader type="Oval" color="#f0f0f5" height={24} width={24} />
