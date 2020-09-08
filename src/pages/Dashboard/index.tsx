@@ -59,6 +59,7 @@ const Dashboard: React.FC = () => {
       setInputError('');
       setLoading(false);
     } catch {
+      setLoading(false);
       setInputError('An error occurred while searching. Please try again.');
     }
   }
@@ -82,7 +83,7 @@ const Dashboard: React.FC = () => {
         <input
           value={newRepo}
           onChange={(e) => setNewRepo(e.target.value)}
-          placeholder="Please enter a user" />
+          placeholder="Enter a username" />
         <button type="submit">
           {loading
             ? <Loader type="Oval" color="#f0f0f5" height={24} width={24} />
