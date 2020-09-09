@@ -101,7 +101,7 @@ const User: React.FC = () => {
                   </li>
                   <li>
                     <strong>{user.following}</strong>
-                    <span>Followers</span>
+                    <span>Following</span>
                   </li>
                 </>
               )}
