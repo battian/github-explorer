@@ -1,5 +1,11 @@
-https://github-explorer-08092020.netlify.app/
+<h1 align="center">
+GitHub Explorer
+</h1>
 
+<p align="center">For study purposes.</p>
+<p align="center">Deployed <a href="https://github-explorer-08092020.netlify.app/">here</a>.</p>
+
+<hr>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
